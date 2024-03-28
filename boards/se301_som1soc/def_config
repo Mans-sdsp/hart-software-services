@@ -6,7 +6,7 @@
 #
 # Custom Board Design Configuration Options
 #
-CONFIG_SOC_FPGA_DESIGN_XML="boards/polarberry/soc_fpga_design/xml/polarberry.xml"
+CONFIG_SOC_FPGA_DESIGN_XML="boards/se301_som1soc/soc_fpga_design/xml/se301_som1soc.xml"
 # end of Custom Board Design Configuration Options
 # end of Board/Design Configuration Options
 
@@ -169,8 +169,8 @@ CONFIG_ALLOW_COLDREBOOT_ALWAYS=y
 # Memory Options
 #
 # CONFIG_SKIP_DDR is not set
-CONFIG_MEMTEST=y
-CONFIG_USE_PDMA=y
+ #CONFIG_MEMTEST is not set
+# CONFIG_USE_PDMA is not set
 # CONFIG_INITIALIZE_MEMORIES is not set
 # end of Memory Options
 # end of General Configuration Options

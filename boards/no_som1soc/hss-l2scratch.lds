@@ -263,7 +263,7 @@ SECTIONS
     .data.payload : ALIGN(16) 
     {
       _payload_start = .;
-      KEEP(boards/polarberry/payload.o(.*))
+      KEEP(boards/no_som1soc/payload.o(.*))
       _payload_end = .;
     }
 #endif
